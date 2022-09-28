@@ -1,0 +1,64 @@
+
+		@font-face {
+		    font-family: 'MonumentValley';
+		    src: url('MonumentValley12-X55o.otf') format('truetype');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		* {box-sizing: border-box; margin: 0px;padding: 0px;}
+		body {
+			min-height: 100vh;
+		  	display: flex;
+		  	flex-direction: column;	
+		  	font-family: "MonumentValley", sans-serif;
+		  	font-size: larger;
+		  	background-color: rgba(0,0,0,0.8);
+		  	color: rgb(255,255,255);
+		}
+		header, footer {
+			padding:  2rem;
+		}
+
+		a {
+			color:rgb(255,255,255) !important;
+			text-decoration: none;
+		}
+
+		section {
+			padding: 2rem;
+		}
+
+		ul {
+			display: flex;
+			flex-flow: row wrap;
+			gap: 1rem;
+		}
+
+		li {
+			flex:  1 1 0;
+			padding:  1rem;
+			list-style: none;
+			text-align: center;
+		}
+
+		h2 {
+			font-size: 2rem;
+			white-space: nowrap;
+		}
+
+		h4{
+			font-family: sans-serif;
+			font-size: 1rem;
+			margin: 2rem 0 0 0;
+		}
+
+		p {
+			font-family: sans-serif;
+			font-size: 1rem;
+		}
+
+		footer{
+			margin-top: auto;
+		}
+
+		footer * {float: right;}
